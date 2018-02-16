@@ -12,10 +12,10 @@ type Customer struct {
     Pwd string
     Pwd_lst_chg_dt string
     Customer_nm string
-    Version int16
-    Reg_user_nm string
-    Reg_tmst time.Time
-    Mod_user_nm string
-    Mod_tmst time.Time
-    Is_active string
+    Version_no int16
+    Created_at time.Time
+    Created_by string
+    Updated_at time.Time
+    Updated_by string
+    Is_actived string
 }
